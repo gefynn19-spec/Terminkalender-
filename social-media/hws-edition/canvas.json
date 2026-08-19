@@ -1,0 +1,25 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "title": "1 · Hook", "x": 0, "y": 0, "w": 1080, "h": 1080, "print": "fixed" },
+    { "file": "Symptome.dc.html", "title": "2 · Symptome", "x": 1200, "y": 0, "w": 1080, "h": 1080, "print": "fixed" },
+    { "file": "Untersuchung.dc.html", "title": "3 · Untersuchung", "x": 2400, "y": 0, "w": 1080, "h": 1080, "print": "fixed" },
+    { "file": "Termin.dc.html", "title": "4 · Termin", "x": 3600, "y": 0, "w": 1080, "h": 1080, "print": "fixed" }
+  ],
+  "annotations": [
+    {
+      "id": "caption",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nEine eingeschränkte Beweglichkeit der Halswirbelsäule kann unter anderem Kopfschmerzen, Schwindel, Nackenschmerzen oder Schulterbeschwerden begünstigen.\n\n➡️ Deshalb überprüfen wir bei der physiotherapeutischen Untersuchung:\n\n✔️ Beweglichkeit\n✔️ Muskelspannung\n✔️ Gelenkfunktion\n✔️ Haltung\n\nDenn: Nur wer die Ursache kennt, kann Beschwerden gezielt und nachhaltig behandeln.\n\n💬 Leidest du häufiger unter Nackenverspannungen oder Kopfschmerzen? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie"
+    },
+    {
+      "id": "fotos",
+      "x": 820,
+      "y": 1180,
+      "w": 420,
+      "text": "Slide 1: die drei Polaroid-Felder sind Platzhalter – hier kommen eure Original-Fotos der HWS-Untersuchung hinein.\n\nSlide 4: [Adresse · Telefon · Terminbuchung] noch ersetzen oder löschen."
+    }
+  ],
+  "launch": { "view": "canvas" }
+}
