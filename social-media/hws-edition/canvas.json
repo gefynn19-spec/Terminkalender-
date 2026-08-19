@@ -1,9 +1,41 @@
 {
   "artboards": [
-    { "file": "Main.dc.html", "title": "1 · Hook", "x": 0, "y": 0, "w": 1080, "h": 1080, "print": "fixed" },
-    { "file": "Symptome.dc.html", "title": "2 · Symptome", "x": 1200, "y": 0, "w": 1080, "h": 1080, "print": "fixed" },
-    { "file": "Untersuchung.dc.html", "title": "3 · Untersuchung", "x": 2400, "y": 0, "w": 1080, "h": 1080, "print": "fixed" },
-    { "file": "Termin.dc.html", "title": "4 · Termin", "x": 3600, "y": 0, "w": 1080, "h": 1080, "print": "fixed" }
+    {
+      "file": "Main.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed"
+    },
+    {
+      "file": "Symptome.dc.html",
+      "title": "2 · Symptome",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed"
+    },
+    {
+      "file": "Untersuchung.dc.html",
+      "title": "3 · Untersuchung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed"
+    },
+    {
+      "file": "Termin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed"
+    }
   ],
   "annotations": [
     {
@@ -18,8 +50,10 @@
       "x": 820,
       "y": 1180,
       "w": 420,
-      "text": "Slide 1: die drei Polaroid-Felder sind Platzhalter – hier kommen eure Original-Fotos der HWS-Untersuchung hinein.\n\nSlide 4: [Adresse · Telefon · Terminbuchung] noch ersetzen oder löschen."
+      "text": "Slide 1: die drei Fotos stammen aus dem Original-Post (foto1/foto2/foto3.jpg) und sitzen in den Polaroid-Rahmen.\n\nSlide 4: [Adresse · Telefon · Terminbuchung] noch ersetzen oder löschen."
     }
   ],
-  "launch": { "view": "canvas" }
+  "launch": {
+    "view": "canvas"
+  }
 }
