@@ -1,0 +1,346 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Reel · Der 10-Sekunden-Nacken-Check</title>
+<link rel="stylesheet" href="../fonts/inline.css">
+<style>
+  :root{
+    --cream:#EFE7DA; --cream-lt:#F7F2E8; --red:#8C1010; --red-dk:#6B0C0C;
+    --ink:#332A20; --muted:#8A7A66; --muted-lt:#A2937E; --blush:#F7EDE8;
+    --green:#3F7A45; --shadow:0 18px 40px rgba(72,48,22,.13);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#111;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+  /* 1080x1920. Sicherer Bereich fuer Reels: y 150-1560, x 80-940 (rechts + unten liegt die Instagram-UI). */
+  #stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--cream);color:var(--ink);
+    font-family:'Barlow','Helvetica Neue',Arial,sans-serif}
+  .scene{position:absolute;inset:0;padding:172px 140px 372px;display:flex;flex-direction:column;
+    justify-content:space-between;will-change:opacity}
+  .anton{font-family:'Anton','Impact',sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.005em}
+
+  #brand{position:absolute;left:80px;top:84px;display:flex;align-items:center;gap:16px;z-index:99}
+  #brand .sq{width:20px;height:20px;background:var(--red)}
+  #brand .nm{font-size:24px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+
+  .pill{display:inline-flex;align-items:center;align-self:flex-start;background:var(--red);color:var(--cream-lt);
+    padding:11px 24px 14px;font-size:29px;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
+  .step-label{font-size:29px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted-lt)}
+
+  h1{font-family:'Anton','Impact',sans-serif;font-weight:400;text-transform:uppercase;
+     font-size:146px;line-height:.9;letter-spacing:.005em;color:var(--red)}
+  h2{font-family:'Anton','Impact',sans-serif;font-weight:400;text-transform:uppercase;
+     font-size:104px;line-height:.94;letter-spacing:.005em;color:var(--ink)}
+  .lead{font-size:44px;font-weight:500;line-height:1.28;color:#4A3D2E}
+
+  .chip{display:flex;align-items:center;gap:22px;background:#fff;box-shadow:var(--shadow);padding:26px 30px;
+    font-size:38px;font-weight:600;line-height:1.2}
+  .chip .ic{flex:0 0 auto}
+  .chip .sub{color:var(--muted);font-weight:500}
+
+  .fig{position:relative;flex:1 1 auto;min-height:520px;background:#fff;box-shadow:var(--shadow);
+    display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .fig svg{width:100%;height:100%;padding:30px 0}
+  .readout{position:absolute;right:34px;top:26px;text-align:right}
+  .readout .val{font-family:'Anton',sans-serif;font-size:88px;line-height:.9;color:var(--red)}
+  .readout .side{font-size:26px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted-lt);margin-top:8px}
+  .target{position:absolute;left:34px;bottom:28px;font-size:29px;font-weight:600;letter-spacing:.05em;color:var(--muted)}
+
+  .polaroid{background:#fff;padding:11px 11px 38px;box-shadow:var(--shadow)}
+  .polaroid img{display:block;object-fit:cover;object-position:center 42%;width:228px;height:296px}
+
+  .contact{background:var(--red);color:var(--cream-lt);padding:30px 36px;display:flex;align-items:center;gap:24px}
+  .contact .nm{font-family:'Anton',sans-serif;font-size:50px;line-height:1.04;text-transform:uppercase}
+  .contact .ad{font-size:27px;font-weight:500;letter-spacing:.04em;color:#EBC9C9;margin-top:6px}
+
+  .note{font-size:25px;line-height:1.38;color:var(--muted)}
+  .a{opacity:0}
+</style>
+
+<div id="stage">
+
+  <div id="brand"><div class="sq"></div><div class="nm">Gerstner Physiotherapie</div></div>
+
+  <!-- ============ 0 · HOOK (0.0 - 3.4) ============ -->
+  <section class="scene" data-in="0" data-out="3.4">
+    <div>
+      <h1 class="a" data-d="0.00" data-t="up">Ist dein</h1>
+      <h1 class="a" data-d="0.09" data-t="up">Nacken</h1>
+      <h1 class="a" data-d="0.18" data-t="up">zu steif?</h1>
+    </div>
+
+    <div class="a anton" data-d="0.60" data-t="pop" style="align-self:flex-start;background:var(--red);color:var(--cream-lt);
+        padding:12px 30px 18px;font-size:70px;line-height:1;transform-origin:left center">10-Sekunden-Check</div>
+
+    <div class="a" data-d="1.00" data-t="up" style="font-size:50px;font-weight:600;line-height:1.24;color:var(--ink)">
+      3 Tests. Du brauchst nur deinen Kopf.
+    </div>
+
+    <div class="a" data-d="1.30" data-t="up" style="display:flex;gap:24px;align-items:flex-start">
+      <div class="polaroid" style="transform:rotate(-4deg)"><img src="../hws-edition/foto1.jpg"></div>
+      <div class="polaroid" style="transform:rotate(2.5deg);margin-top:26px"><img src="../hws-edition/foto2.jpg"></div>
+      <div class="polaroid" style="transform:rotate(-1.5deg);margin-top:-8px"><img src="../hws-edition/foto3.jpg"></div>
+    </div>
+
+    <div class="a" data-d="1.85" data-t="fade" id="hookHint" style="display:flex;align-items:center;gap:18px;
+        font-size:31px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted-lt)">
+      <span>Mach direkt mit</span>
+      <svg width="34" height="34" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M24 8v30"></path><path d="M12 26l12 12 12-12"></path></svg>
+    </div>
+  </section>
+
+  <!-- ============ 1 · ROTATION (3.4 - 9.2) ============ -->
+  <section class="scene" data-in="3.4" data-out="9.2" style="gap:28px">
+    <div style="display:flex;align-items:center;gap:24px">
+      <div class="pill a" data-d="0.00" data-t="right">Test 1 / 3</div>
+      <div class="step-label a" data-d="0.08" data-t="right">Rotation</div>
+    </div>
+    <h2 class="a" data-d="0.14" data-t="up">Kinn zur<br>Schulter</h2>
+    <div class="lead a" data-d="0.30" data-t="up">Aufrecht sitzen, Schultern locker. Kopf langsam zur Seite drehen – erst rechts, dann links.</div>
+
+    <div class="fig a" data-d="0.46" data-t="pop">
+      <svg viewBox="0 0 620 520" preserveAspectRatio="xMidYMid meet" fill="none">
+        <rect x="140" y="386" width="340" height="90" rx="45" fill="var(--blush)" stroke="var(--red)" stroke-width="5"></rect>
+        <line x1="310" y1="286" x2="310" y2="52" stroke="var(--muted-lt)" stroke-width="3" stroke-dasharray="10 12" opacity=".55"></line>
+        <path id="rotArc" d="" stroke="var(--red)" stroke-width="8" stroke-linecap="round" opacity=".38"></path>
+        <g id="rotHead" style="transform-origin:310px 286px">
+          <circle cx="310" cy="286" r="116" fill="#fff" stroke="var(--red)" stroke-width="6"></circle>
+          <path d="M282 182 L310 128 L338 182 Z" fill="var(--red)"></path>
+          <circle cx="194" cy="286" r="14" fill="var(--red)"></circle>
+          <circle cx="426" cy="286" r="14" fill="var(--red)"></circle>
+        </g>
+      </svg>
+      <div class="readout"><div class="val" id="rotVal">0°</div><div class="side" id="rotSide">Start</div></div>
+      <div class="target">Ziel: ca. 80° pro Seite</div>
+    </div>
+
+    <div class="chip a" data-d="0.90" data-t="up">
+      <svg class="ic" width="46" height="46" viewBox="0 0 48 48" fill="none" stroke="var(--red)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 10L4 24l10 14M34 10l10 14-10 14"></path><path d="M24 14v20"></path></svg>
+      <div>Kommt eine Seite weniger weit? Merk sie dir.</div>
+    </div>
+  </section>
+
+  <!-- ============ 2 · SEITNEIGUNG (9.2 - 14.4) ============ -->
+  <section class="scene" data-in="9.2" data-out="14.4" style="gap:28px">
+    <div style="display:flex;align-items:center;gap:24px">
+      <div class="pill a" data-d="0.00" data-t="right">Test 2 / 3</div>
+      <div class="step-label a" data-d="0.08" data-t="right">Seitneigung</div>
+    </div>
+    <h2 class="a" data-d="0.14" data-t="up">Ohr zur<br>Schulter</h2>
+    <div class="lead a" data-d="0.30" data-t="up">Kopf zur Seite neigen, ohne die Schulter hochzuziehen. Blick bleibt geradeaus.</div>
+
+    <div class="fig a" data-d="0.46" data-t="pop">
+      <svg viewBox="0 0 620 520" preserveAspectRatio="xMidYMid meet" fill="none">
+        <rect x="120" y="424" width="380" height="58" rx="29" fill="var(--blush)" stroke="var(--red)" stroke-width="5"></rect>
+        <line x1="310" y1="424" x2="310" y2="70" stroke="var(--muted-lt)" stroke-width="3" stroke-dasharray="10 12" opacity=".55"></line>
+        <path id="tiltArc" d="" stroke="var(--red)" stroke-width="8" stroke-linecap="round" opacity=".38"></path>
+        <g id="tiltHead" style="transform-origin:310px 424px">
+          <rect x="286" y="282" width="48" height="86" rx="22" fill="var(--blush)" stroke="var(--red)" stroke-width="6"></rect>
+          <circle cx="310" cy="208" r="102" fill="#fff" stroke="var(--red)" stroke-width="6"></circle>
+          <circle cx="280" cy="192" r="11" fill="var(--red)"></circle>
+          <circle cx="340" cy="192" r="11" fill="var(--red)"></circle>
+          <path d="M286 248q24 20 48 0" stroke="var(--red)" stroke-width="6" stroke-linecap="round"></path>
+        </g>
+      </svg>
+      <div class="readout"><div class="val" id="tiltVal">0°</div><div class="side" id="tiltSide">Start</div></div>
+      <div class="target">Ziel: ca. 45° pro Seite</div>
+    </div>
+
+    <div class="chip a" data-d="0.90" data-t="up">
+      <svg class="ic" width="46" height="46" viewBox="0 0 48 48" fill="none" stroke="var(--red)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 6v36"></path><path d="M8 20l16-14 16 14"></path></svg>
+      <div>Schulter bleibt unten – sonst schummelst du.</div>
+    </div>
+  </section>
+
+  <!-- ============ 3 · DOPPELKINN (14.4 - 19.2) ============ -->
+  <section class="scene" data-in="14.4" data-out="19.2" style="gap:28px">
+    <div style="display:flex;align-items:center;gap:24px">
+      <div class="pill a" data-d="0.00" data-t="right">Test 3 / 3</div>
+      <div class="step-label a" data-d="0.08" data-t="right">Kinn nach hinten</div>
+    </div>
+    <h2 class="a" data-d="0.14" data-t="up">Doppelkinn<br>machen</h2>
+    <div class="lead a" data-d="0.30" data-t="up">Kinn gerade nach hinten schieben, nicht nach unten. Blick bleibt geradeaus.</div>
+
+    <div class="fig a" data-d="0.46" data-t="pop">
+      <svg viewBox="0 0 620 520" preserveAspectRatio="xMidYMid meet" fill="none">
+        <rect x="150" y="424" width="330" height="58" rx="29" fill="var(--blush)" stroke="var(--red)" stroke-width="5"></rect>
+        <g stroke="var(--muted-lt)" stroke-width="3" stroke-dasharray="10 12" opacity=".5" fill="none">
+          <circle cx="352" cy="214" r="102"></circle>
+        </g>
+        <g id="tuckHead">
+          <rect x="326" y="292" width="50" height="140" rx="24" fill="var(--blush)" stroke="var(--red)" stroke-width="6"></rect>
+          <circle cx="352" cy="214" r="102" fill="#fff" stroke="var(--red)" stroke-width="6"></circle>
+          <path d="M444 190 L494 232 L442 250" fill="none" stroke="var(--red)" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"></path>
+          <path d="M440 272 q-16 26 -52 30" fill="none" stroke="var(--red)" stroke-width="6" stroke-linecap="round"></path>
+          <circle cx="404" cy="188" r="11" fill="var(--red)"></circle>
+          <circle cx="326" cy="222" r="15" fill="none" stroke="var(--red)" stroke-width="5"></circle>
+        </g>
+        <g id="tuckArrow" opacity="0" stroke="var(--red)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+          <path d="M320 74h-98"></path><path d="M248 50l-26 24 26 24"></path>
+        </g>
+      </svg>
+      <div class="readout"><div class="val" id="tuckVal" style="font-size:62px">0 / 2</div><div class="side">Wiederholungen</div></div>
+      <div class="target">Ziel: geht leicht, ohne Ziehen</div>
+    </div>
+
+    <div class="chip a" data-d="0.90" data-t="up">
+      <svg class="ic" width="46" height="46" viewBox="0 0 48 48" fill="none" stroke="var(--red)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="18"></circle><path d="M24 15v10l7 5"></path></svg>
+      <div>2 Sekunden halten, dann locker lassen.</div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AUSWERTUNG (19.2 - 23.6) ============ -->
+  <section class="scene" data-in="19.2" data-out="23.6" style="gap:22px">
+    <div>
+      <div class="step-label a" data-d="0.00" data-t="right" style="margin-bottom:18px">Auswertung</div>
+      <h2 class="a" data-d="0.08" data-t="up" style="color:var(--red)">Und jetzt<br>vergleichen</h2>
+    </div>
+
+    <div class="chip a" data-d="0.55" data-t="up" style="align-items:flex-start">
+      <svg class="ic" width="52" height="52" viewBox="0 0 48 48" fill="none" stroke="var(--green)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="19"></circle><path d="M15 24.5l6.5 6.5L33 19"></path></svg>
+      <div>Beide Seiten gleich weit, kein Ziehen?<br><span class="sub">Dein Nacken macht seinen Job.</span></div>
+    </div>
+
+    <div class="chip a" data-d="0.95" data-t="up" style="align-items:flex-start">
+      <svg class="ic" width="52" height="52" viewBox="0 0 48 48" fill="none" stroke="var(--red)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 7l18 32H6z"></path><path d="M24 19v10M24 34.5v.01"></path></svg>
+      <div>Eine Seite deutlich steifer?<br><span class="sub">Ein Seitenunterschied ist ein Befund.</span></div>
+    </div>
+
+    <div class="chip a" data-d="1.35" data-t="up" style="align-items:flex-start">
+      <svg class="ic" width="52" height="52" viewBox="0 0 48 48" fill="none" stroke="var(--red)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 7l18 32H6z"></path><path d="M24 19v10M24 34.5v.01"></path></svg>
+      <div>Ziehen, Knacken oder Kopfschmerz dabei?<br><span class="sub">Das gehört angeschaut, nicht ausgesessen.</span></div>
+    </div>
+
+    <div class="a" data-d="2.20" data-t="up" style="background:var(--red);color:var(--cream-lt);padding:30px 34px;
+        font-size:40px;font-weight:600;line-height:1.24">
+      Wir finden heraus, <span style="color:#F3C9C9">woher</span> die Einschränkung kommt – und behandeln genau das.
+    </div>
+
+    <div class="note a" data-d="2.90" data-t="fade">
+      Der Check ersetzt keine Untersuchung. Bei Schwindel, Übelkeit, Taubheitsgefühl oder starken Schmerzen: abbrechen und ärztlich abklären lassen.
+    </div>
+  </section>
+
+  <!-- ============ 5 · CTA (23.6 - 28.0) ============ -->
+  <section class="scene" data-in="23.6" data-out="28.0" style="gap:26px">
+    <div>
+      <div class="step-label a" data-d="0.00" data-t="right" style="margin-bottom:18px">Deine Antwort zählt</div>
+      <h2 class="a" data-d="0.08" data-t="up" style="color:var(--red);font-size:96px">Welche Seite<br>ist bei dir<br>steifer?</h2>
+    </div>
+
+    <div class="a" data-d="0.62" data-t="pop" id="ctaLR" style="display:flex;gap:20px;align-self:flex-start;transform-origin:left center">
+      <div class="anton" style="background:var(--red);color:var(--cream-lt);padding:14px 42px 20px;font-size:84px;line-height:1">L</div>
+      <div class="anton" style="background:var(--red);color:var(--cream-lt);padding:14px 42px 20px;font-size:84px;line-height:1">R</div>
+      <div style="display:flex;align-items:center;font-size:42px;font-weight:700;line-height:1.15;max-width:380px">Schreib es in die Kommentare.</div>
+    </div>
+
+    <div class="chip a" data-d="1.25" data-t="up">
+      <svg class="ic" width="46" height="46" viewBox="0 0 48 48" fill="none" stroke="var(--red)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6h24a2 2 0 0 1 2 2v34l-14-9-14 9V8a2 2 0 0 1 2-2z"></path></svg>
+      <div>Speichern – und jemandem schicken, der ständig den Nacken reibt.</div>
+    </div>
+
+    <div class="contact a" data-d="1.85" data-t="up">
+      <svg width="56" height="56" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M24 44s14-14.5 14-24a14 14 0 1 0-28 0c0 9.5 14 24 14 24z"></path><circle cx="24" cy="20" r="5.5"></circle></svg>
+      <div>
+        <div class="nm">Gerstner Physiotherapie</div>
+        <div class="ad">Zeiler Str. 20 · Sand am Main · 09524 5297</div>
+      </div>
+    </div>
+
+    <div class="a" data-d="2.35" data-t="fade" style="display:flex;align-items:center;gap:16px;font-size:29px;
+        font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted-lt)">
+      <svg width="32" height="32" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 24a16 16 0 1 1 5 11.6"></path><path d="M6 14v10h10"></path></svg>
+      <span>Nochmal ansehen und mitmachen</span>
+    </div>
+  </section>
+</div>
+
+<script>
+const DURATION = 28.0;
+const scenes = [...document.querySelectorAll('.scene')].map((el, i) => {
+  el.style.zIndex = 10 + i;
+  return { el, in: +el.dataset.in, out: +el.dataset.out,
+           items: [...el.querySelectorAll('.a')].map(n => ({ n, d: +n.dataset.d, t: n.dataset.t, base: n.style.transform || '' })) };
+});
+
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const seg = (t, s, d) => clamp((t - s) / d, 0, 1);
+const easeOut = p => 1 - Math.pow(1 - p, 3);
+const easeInOut = p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+const back = p => { const c = 1.9; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
+const lerp = (a, b, p) => a + (b - a) * p;
+
+function applyItem(it, tl) {
+  const p = seg(tl, it.d, 0.55);
+  it.n.style.opacity = clamp(p * 1.7, 0, 1);
+  if (it.t === 'up')    it.n.style.transform = `${it.base} translateY(${(1 - easeOut(p)) * 64}px)`;
+  if (it.t === 'right') it.n.style.transform = `${it.base} translateX(${(1 - easeOut(p)) * -46}px)`;
+  if (it.t === 'pop')   it.n.style.transform = `${it.base} scale(${lerp(.88, 1, back(p))})`;
+}
+
+/* 0 -> peak -> 0 innerhalb eines Zeitfensters */
+function swing(t, start, up, hold, down, peak) {
+  if (t < start) return 0;
+  if (t < start + up) return peak * easeInOut(seg(t, start, up));
+  if (t < start + up + hold) return peak;
+  if (t < start + up + hold + down) return peak * (1 - easeInOut(seg(t, start + up + hold, down)));
+  return 0;
+}
+function polarArc(cx, cy, r, a0, a1) {
+  const p = a => [cx + r * Math.sin(a * Math.PI / 180), cy - r * Math.cos(a * Math.PI / 180)];
+  const [x0, y0] = p(a0), [x1, y1] = p(a1);
+  if (Math.abs(a1 - a0) < 0.4) return '';
+  return `M${x0.toFixed(2)} ${y0.toFixed(2)} A${r} ${r} 0 0 ${a1 > a0 ? 1 : 0} ${x1.toFixed(2)} ${y1.toFixed(2)}`;
+}
+
+function render(t) {
+  for (const s of scenes) {
+    const live = t >= s.in - 0.25 && t < s.out;
+    s.el.style.display = live ? 'flex' : 'none';
+    if (!live) continue;
+    s.el.style.opacity = clamp((t - s.in) / 0.2, 0, 1);
+    for (const it of s.items) applyItem(it, t - s.in);
+  }
+
+  { // Test 1 · Rotation
+    const tl = t - 3.4;
+    let a = swing(tl, 1.35, 1.15, 0.45, 0.4, 80);
+    if (tl >= 3.4) a = -swing(tl, 3.4, 1.15, 0.45, 0.4, 80);
+    document.getElementById('rotHead').style.transform = `rotate(${a.toFixed(2)}deg)`;
+    document.getElementById('rotArc').setAttribute('d', polarArc(310, 286, 172, 0, a));
+    document.getElementById('rotVal').textContent = Math.round(Math.abs(a)) + '°';
+    document.getElementById('rotSide').textContent = tl < 1.35 ? 'Start' : (tl < 3.35 ? 'Rechts' : 'Links');
+  }
+
+  { // Test 2 · Seitneigung
+    const tl = t - 9.2;
+    let a = swing(tl, 1.0, 0.95, 0.35, 0.4, 45);
+    if (tl >= 2.8) a = -swing(tl, 2.8, 0.95, 0.35, 0.4, 45);
+    document.getElementById('tiltHead').style.transform = `rotate(${a.toFixed(2)}deg)`;
+    document.getElementById('tiltArc').setAttribute('d', polarArc(310, 424, 268, 0, a));
+    document.getElementById('tiltVal').textContent = Math.round(Math.abs(a)) + '°';
+    document.getElementById('tiltSide').textContent = tl < 1.0 ? 'Start' : (tl < 2.75 ? 'Rechts' : 'Links');
+  }
+
+  { // Test 3 · Doppelkinn
+    const tl = t - 14.4;
+    const s = Math.max(swing(tl, 1.0, 0.7, 0.5, 0.45, 1), swing(tl, 2.8, 0.7, 0.5, 0.45, 1));
+    document.getElementById('tuckHead').setAttribute('transform', `translate(${(-74 * s).toFixed(2)} 0)`);
+    document.getElementById('tuckArrow').setAttribute('opacity', s.toFixed(2));
+    document.getElementById('tuckVal').textContent = (tl > 3.9 ? 2 : tl > 2.1 ? 1 : 0) + ' / 2';
+  }
+
+  { // CTA-Puls
+    const tl = t - 23.6;
+    if (tl > 1.2) {
+      const pulse = 1 + 0.035 * Math.max(0, Math.sin((tl - 1.2) * Math.PI * 1.6));
+      document.getElementById('ctaLR').style.transform = `scale(${pulse.toFixed(4)})`;
+    }
+  }
+
+  { // Hook-Pfeil
+    const h = document.getElementById('hookHint');
+    if (t < 3.4) h.style.transform = `translateY(${(Math.sin(t * 4.4) * 7).toFixed(2)}px)`;
+  }
+}
+window.renderFrame = render;
+render(0);
+</script>
