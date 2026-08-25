@@ -1,0 +1,18 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "title": "1 · Hook", "x": 0, "y": 0, "w": 1080, "h": 1080, "print": "fixed" },
+    { "file": "Anzeichen.dc.html", "title": "2 · Anzeichen", "x": 1200, "y": 0, "w": 1080, "h": 1080, "print": "fixed" },
+    { "file": "Training.dc.html", "title": "3 · Training", "x": 2400, "y": 0, "w": 1080, "h": 1080, "print": "fixed" },
+    { "file": "Termin.dc.html", "title": "4 · Termin", "x": 3600, "y": 0, "w": 1080, "h": 1080, "print": "fixed" }
+  ],
+  "annotations": [
+    {
+      "id": "caption",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nGleichgewicht und Koordination sind keine Talentfrage – sie lassen sich trainieren. Bei Kindern zeigt sich ein unsicheres Gleichgewicht oft mitten im Alltag: häufiges Stolpern, ein unsicherer Stand, schnelle Ermüdung oder eine nachlassende Haltung.\n\n➡️ Daran arbeiten wir gemeinsam in der Kinderphysiotherapie:\n\n✔️ Dehnen & Mobilisieren\n✔️ Gleichgewicht schulen\n✔️ Einbeinstand üben\n✔️ Spielerisch wiederholen\n\nDenn: Was Kinder mit Freude üben, nehmen sie mit in den Alltag.\n\n💬 Fällt deinem Kind Balance oder Koordination schwer? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen euch gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297"
+    }
+  ],
+  "launch": { "view": "canvas" }
+}
