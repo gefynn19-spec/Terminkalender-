@@ -1,0 +1,376 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-1"
+    },
+    {
+      "file": "RueckenAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-1"
+    },
+    {
+      "file": "RueckenBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-1"
+    },
+    {
+      "file": "RueckenTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-1"
+    },
+    {
+      "file": "KnieHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-2"
+    },
+    {
+      "file": "KnieAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-2"
+    },
+    {
+      "file": "KnieBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-2"
+    },
+    {
+      "file": "KnieTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-2"
+    },
+    {
+      "file": "SchulterHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-3"
+    },
+    {
+      "file": "SchulterAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-3"
+    },
+    {
+      "file": "SchulterBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-3"
+    },
+    {
+      "file": "SchulterTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-3"
+    },
+    {
+      "file": "SprunggelenkHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-4"
+    },
+    {
+      "file": "SprunggelenkAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-4"
+    },
+    {
+      "file": "SprunggelenkBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-4"
+    },
+    {
+      "file": "SprunggelenkTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-4"
+    },
+    {
+      "file": "BueroHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-5"
+    },
+    {
+      "file": "BueroAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-5"
+    },
+    {
+      "file": "BueroBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-5"
+    },
+    {
+      "file": "BueroTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-5"
+    },
+    {
+      "file": "BeckenbodenHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-6"
+    },
+    {
+      "file": "BeckenbodenAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-6"
+    },
+    {
+      "file": "BeckenbodenBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-6"
+    },
+    {
+      "file": "BeckenbodenTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-6"
+    },
+    {
+      "file": "SportHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-7"
+    },
+    {
+      "file": "SportAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-7"
+    },
+    {
+      "file": "SportBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-7"
+    },
+    {
+      "file": "SportTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-7"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "caption-1",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nBei Rückenschmerzen ist Schonung selten die Lösung. Oft steckt dahinter:\n\nWenig Bewegung, Einseitige Belastung, Schwacher Rumpf, Stress & Anspannung.\n\n➡️ Daran arbeiten wir bei Rückenbeschwerden:\n\n✔️ Beweglichkeit der Wirbelsäule\n✔️ Rumpfkraft aufbauen\n✔️ Belastung dosieren\n✔️ Alltag anpassen\n\nDenn: Der Rücken braucht Bewegung – in der richtigen Dosis.\n\n💬 Zwickt dein Rücken öfter, als dir lieb ist? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-1"
+    },
+    {
+      "id": "caption-2",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nKnieschmerzen entstehen selten nur im Knie. Häufig spielen mit:\n\nSchwache Hüfte, Instabile Beinachse, Fußfehlstellung, Zu schnelle Steigerung.\n\n➡️ Daran arbeiten wir bei Knieschmerzen:\n\n✔️ Beinachse stabilisieren\n✔️ Hüfte kräftigen\n✔️ Kniefunktion prüfen\n✔️ Belastung aufbauen\n\nDenn: Ein stabiles Knie beginnt bei Hüfte und Fuß.\n\n💬 Schmerzt dein Knie beim Treppensteigen oder Sport? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-2"
+    },
+    {
+      "id": "caption-3",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nEine schmerzhafte Schulter zeigt sich oft zuerst im Alltag:\n\nSchmerz beim Heben, Nachts auf der Seite, Kraftverlust, Weniger Beweglichkeit.\n\n➡️ Daran arbeiten wir bei Schulterbeschwerden:\n\n✔️ Schulterblatt stabilisieren\n✔️ Rotatorenmanschette stärken\n✔️ Beweglichkeit zurückholen\n✔️ Haltung verbessern\n\nDenn: Die Schulter arbeitet nur so gut wie ihr Schulterblatt.\n\n💬 Schmerzt deine Schulter beim Heben oder nachts? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-3"
+    },
+    {
+      "id": "caption-4",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nNach dem Umknicken bleibt oft mehr zurück als ein blauer Fleck:\n\nUnsicheres Gefühl, Wiederholtes Umknicken, Restschwellung, Weniger Beweglichkeit.\n\n➡️ Daran arbeiten wir nach dem Umknicken:\n\n✔️ Schwellung reduzieren\n✔️ Beweglichkeit aufbauen\n✔️ Gleichgewicht trainieren\n✔️ Zurück in den Sport\n\nDenn: Das Band heilt von allein – die Sicherheit im Gelenk nicht.\n\n💬 Knickst du öfter um oder fühlt sich dein Fuß unsicher an? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-4"
+    },
+    {
+      "id": "caption-5",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nLanges Sitzen meldet sich selten dort, wo man es erwartet:\n\nNackenverspannung, Ziehende Schultern, Steifer Rücken, Kopfschmerzen.\n\n➡️ Daran arbeiten wir im Büroalltag:\n\n✔️ Arbeitsplatz anpassen\n✔️ Position oft wechseln\n✔️ Mobilisieren zwischendurch\n✔️ Rumpf kräftigen\n\nDenn: Die beste Haltung ist immer die nächste.\n\n💬 Sitzt du den ganzen Tag am Schreibtisch? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-5"
+    },
+    {
+      "id": "caption-6",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nDer Beckenboden arbeitet unbemerkt mit – bis er es nicht mehr tut:\n\nUngewollter Urinverlust, Druckgefühl, Rückenschmerzen, Unsicherheit im Sport.\n\n➡️ Daran arbeiten wir beim Beckenbodentraining:\n\n✔️ Beckenboden wahrnehmen\n✔️ Gezielt aktivieren\n✔️ Atmung einbeziehen\n✔️ In den Alltag holen\n\nDenn: Beckenbodentraining wirkt – wenn es richtig ausgeführt wird.\n\n💬 Willst du deinen Beckenboden gezielt trainieren? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-6"
+    },
+    {
+      "id": "caption-7",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nZurück im Sport: zu früh gestartet wird schnell zum zweiten Ausfall.\n\nZu früher Start, Seitenunterschiede, Fehlendes Vertrauen, Alte Bewegungsmuster.\n\n➡️ Daran arbeiten wir vor der Rückkehr in den Sport:\n\n✔️ Belastbarkeit testen\n✔️ Kraft seitengleich aufbauen\n✔️ Sprünge & Richtungswechsel\n✔️ Schrittweise steigern\n\nDenn: Schmerzfrei heißt noch nicht belastbar.\n\n💬 Willst du nach einer Verletzung sicher zurück in den Sport? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-7"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-1",
+      "name": "1 · Rücken"
+    },
+    {
+      "id": "page-2",
+      "name": "2 · Knie"
+    },
+    {
+      "id": "page-3",
+      "name": "3 · Schulter"
+    },
+    {
+      "id": "page-4",
+      "name": "4 · Sprunggelenk"
+    },
+    {
+      "id": "page-5",
+      "name": "5 · Büroalltag"
+    },
+    {
+      "id": "page-6",
+      "name": "6 · Beckenboden"
+    },
+    {
+      "id": "page-7",
+      "name": "7 · Rückkehr in den Sport"
+    }
+  ],
+  "launch": {
+    "view": "canvas",
+    "page": "page-1"
+  }
+}

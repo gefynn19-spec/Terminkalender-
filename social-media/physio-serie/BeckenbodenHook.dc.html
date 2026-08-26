@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&display=swap">
+  <style>
+    body { margin: 0; font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif; }
+    a { color: #8C1010; } a:hover { color: #6B0C0C; }
+  </style>
+</helmet>
+<div style="width: 1080px; height: 1080px; box-sizing: border-box; background: #EFE7DA; color: #332A20; padding: 72px; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;">
+
+  <div style="display: flex; align-items: center; gap: 16px;">
+    <div style="width: 18px; height: 18px; background: #8C1010;"></div>
+    <div style="font-size: 21px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #8A7A66;">Gerstner Physiotherapie</div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 26px;">
+    <div style="font-family: 'Anton', 'Impact', 'Haettenschweiler', sans-serif; font-size: 100px; line-height: 0.94; letter-spacing: -0.005em; color: #8C1010; text-transform: uppercase; text-wrap: pretty;">Wusstest du schon?</div>
+    <div style="display: inline-flex; align-items: center; background: #8C1010; color: #F7F2E8; padding: 12px 28px 16px; transform: rotate(-1.5deg); font-family: 'Anton', 'Impact', 'Haettenschweiler', sans-serif; font-size: 62px; line-height: 1; letter-spacing: 0.02em; text-transform: uppercase;">Beckenboden-Edition</div>
+  </div>
+
+  <div style="display: flex; justify-content: center;">
+    <div style="background: #FFFFFF; padding: 18px 18px 54px; box-shadow: 0 22px 48px rgba(72, 48, 22, 0.20); transform: rotate(-2.5deg);">
+      <div style="width: 400px; height: 400px; background: #F7EDE8; display: flex; align-items: center; justify-content: center;"><svg width="350" height="350" viewBox="0 0 120 120" fill="none" stroke="#8C1010" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M22 34c0 40 16 62 38 62s38-22 38-62"></path><path d="M22 34c-10-20 6-32 20-25M98 34c10-20-6-32-20-25"></path><path d="M32 62c12 26 44 26 56 0" stroke-dasharray="7 8"></path><path d="M60 88V58"></path><path d="M50 68l10-10 10 10"></path></svg></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center; justify-content: space-between; font-size: 20px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #A2937E;"><div style="display: flex; align-items: center; gap: 12px;"><span>Weiterwischen</span><svg width="26" height="26" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 24h32"></path><path d="M27 12l12 12-12 12"></path></svg></div><div>01 / 04</div></div>
+
+</div>
+</x-dc>
+<script data-dc-script data-props='{"$preview":{"width":1080,"height":1080}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>
