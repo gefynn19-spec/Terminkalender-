@@ -39,7 +39,7 @@ POSTS = [
     },
     {
         'key': 'Sprunggelenk', 'page': 'Sprunggelenk', 'badge': 'Sprunggelenk-Edition',
-        'hero': 'sprunggelenk',
+        'hero': 'sprunggelenk', 'herobild': 'sprunggelenk-anatomie.jpg',
         'aussage': 'Nach dem ' + R % 'Umknicken' + ' bleibt oft mehr zurück als ein blauer Fleck:',
         'karten': [('unsicher', 'Unsicheres Gefühl'), ('wiederholung', 'Wiederholtes Umknicken'),
                    ('tropfen', 'Restschwellung'), ('gelenk', 'Weniger Beweglichkeit')],

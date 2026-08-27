@@ -47,9 +47,13 @@ def seite(inhalt, nr, letzte=False):
 
 
 def hook(p):
-    hero = ('<svg width="350" height="350" viewBox="0 0 120 120" fill="none" stroke="#8C1010" '
-            'stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">%s</svg>'
-            % HEROES[p['hero']])
+    if p.get('herobild'):
+        hero = ('<img src="%s" alt="Anatomische Darstellung" '
+                'style="width: 400px; height: 400px; display: block;">' % p['herobild'])
+    else:
+        hero = ('<svg width="350" height="350" viewBox="0 0 120 120" fill="none" stroke="#8C1010" '
+                'stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">%s</svg>'
+                % HEROES[p['hero']])
     return (
         '  <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 26px;">\n'
         '    <div style="font-family: %s; font-size: 100px; line-height: 0.94; letter-spacing: -0.005em; '
