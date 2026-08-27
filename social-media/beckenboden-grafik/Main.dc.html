@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&display=swap">
+  <style>
+    body { margin: 0; font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif; }
+    a { color: #8C1010; } a:hover { color: #6B0C0C; }
+  </style>
+</helmet>
+<div style="width: 1080px; height: 1080px; box-sizing: border-box; background: #EFE7DA; color: #332A20; padding: 64px 72px; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;">
+
+  <div style="display: flex; align-items: center; gap: 16px;">
+    <div style="width: 18px; height: 18px; background: #8C1010;"></div>
+    <div style="font-size: 21px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #8A7A66;">Gerstner Physiotherapie</div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 14px;">
+    <div style="font-family: 'Anton', 'Impact', 'Haettenschweiler', sans-serif; font-size: 74px; line-height: 1; letter-spacing: 0.005em; text-transform: uppercase; color: #8C1010;">Der Beckenboden</div>
+    <div style="font-size: 34px; font-weight: 500; line-height: 1.3; color: #6A5B49; max-width: 880px; text-wrap: pretty;">Eine Muskelplatte, die das Becken nach unten verschließt – zwischen Schambein und Steißbein.</div>
+  </div>
+
+  <div style="display: flex; justify-content: center;">
+    <svg width="860" height="561" viewBox="0 0 460 300" fill="none" font-family="'Barlow', Arial, sans-serif">
+
+      <!-- Kreuz- und Steissbein -->
+      <path d="M298 46c16 8 30 50 24 104-5 40-28 64-56 66 12-22 18-64 14-104-3-28 4-52 18-66z" fill="#8C1010" fill-opacity="0.16" stroke="#8C1010" stroke-width="3.4" stroke-linejoin="round"></path>
+      <g stroke="#8C1010" stroke-width="2" opacity="0.55" stroke-linecap="round">
+        <path d="M292 78h20M290 106h24M290 134h24M292 162h20"></path>
+      </g>
+
+      <!-- Schambein -->
+      <rect x="150" y="184" width="44" height="32" rx="14" fill="#8C1010" fill-opacity="0.16" stroke="#8C1010" stroke-width="3.4"></rect>
+
+      <!-- Blase -->
+      <ellipse cx="198" cy="148" rx="32" ry="26" stroke="#8C1010" stroke-width="2.6" opacity="0.7"></ellipse>
+      <path d="M202 174c-2 12-2 20 0 30" stroke="#8C1010" stroke-width="2.6" opacity="0.7" stroke-linecap="round"></path>
+
+      <!-- Enddarm -->
+      <path d="M248 104c-4 36-10 70-14 102M272 108c-4 38-12 74-18 106" stroke="#8C1010" stroke-width="2.6" opacity="0.7" stroke-linecap="round"></path>
+
+      <!-- Beckenboden -->
+      <path d="M194 196c22 40 50 42 72 8l6 8c-22 42-58 42-78 2z" fill="#8C1010" fill-opacity="0.32" stroke="#8C1010" stroke-width="3.6" stroke-linejoin="round"></path>
+
+      <!-- Anspannungsrichtung -->
+      <path d="M232 274v-26" stroke="#8C1010" stroke-width="4" stroke-linecap="round"></path>
+      <path d="M223 258l9-11 9 11" stroke="#8C1010" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+
+      <!-- Hilfslinien der Beschriftung -->
+      <g stroke="#A2937E" stroke-width="1.8" stroke-linecap="round">
+        <path d="M146 200h-22"></path>
+        <path d="M164 148h-40"></path>
+        <path d="M246 100l-14-26"></path>
+        <path d="M322 140h26"></path>
+        <path d="M206 222l-42 30"></path>
+      </g>
+      <g fill="#332A20" font-size="17" font-weight="600">
+        <text x="116" y="205" text-anchor="end">Schambein</text>
+        <text x="116" y="153" text-anchor="end">Blase</text>
+        <text x="228" y="68" text-anchor="middle">Enddarm</text>
+        <text x="354" y="138">Kreuz- und</text><text x="354" y="160">Steißbein</text>
+      </g>
+      <text x="158" y="257" text-anchor="end" fill="#8C1010" font-size="20" font-weight="700">Beckenboden</text>
+      <text x="232" y="292" text-anchor="middle" fill="#6A5B49" font-size="16" font-weight="500">spannt nach innen und oben an</text>
+
+    </svg>
+  </div>
+
+  <div style="display: flex; align-items: center; justify-content: space-between; font-size: 19px; font-weight: 500; letter-spacing: 0.06em; color: #A2937E;">
+    <div>Schematische Darstellung, Seitenansicht</div>
+    <div style="letter-spacing: 0.18em; text-transform: uppercase;">Zeiler Str. 20 · Sand am Main</div>
+  </div>
+
+</div>
+</x-dc>
+<script data-dc-script data-props='{"$preview":{"width":1080,"height":1080}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>
