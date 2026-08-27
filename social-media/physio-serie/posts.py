@@ -5,7 +5,7 @@ R = '<span style="color: #8C1010;">%s</span>'
 
 POSTS = [
     {
-        'key': 'Ruecken', 'page': 'Rücken', 'badge': 'Rücken-Edition', 'hero': 'ruecken',
+        'key': 'Ruecken', 'page': 'Rücken', 'badge': 'Rücken-Edition', 'hero': 'ruecken', 'herobild': 'ruecken-anatomie.jpg',
         'aussage': 'Bei ' + R % 'Rückenschmerzen' + ' ist Schonung selten die Lösung. Oft steckt dahinter:',
         'karten': [('sitzen', 'Wenig Bewegung'), ('druck', 'Einseitige Belastung'),
                    ('gewicht', 'Schwacher Rumpf'), ('stress', 'Stress &amp; Anspannung')],
