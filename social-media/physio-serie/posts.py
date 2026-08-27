@@ -62,7 +62,7 @@ POSTS = [
     },
     {
         'key': 'Beckenboden', 'page': 'Beckenboden', 'badge': 'Beckenboden-Edition',
-        'hero': 'beckenboden',
+        'hero': 'beckenboden', 'herobild': 'beckenboden-anatomie.jpg',
         'aussage': 'Der ' + R % 'Beckenboden' + ' arbeitet unbemerkt mit – bis er es nicht mehr tut:',
         'karten': [('tropfen', 'Ungewollter Urinverlust'), ('druck', 'Druckgefühl'),
                    ('blitz', 'Rückenschmerzen'), ('unsicher', 'Unsicherheit im Sport')],
