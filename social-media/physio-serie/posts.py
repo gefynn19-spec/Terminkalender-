@@ -27,7 +27,7 @@ POSTS = [
         'frage': 'Schmerzt dein Knie beim Treppensteigen oder Sport?',
     },
     {
-        'key': 'Schulter', 'page': 'Schulter', 'badge': 'Schulter-Edition', 'hero': 'schulter',
+        'key': 'Schulter', 'page': 'Schulter', 'badge': 'Schulter-Edition', 'hero': 'schulter', 'herobild': 'schulter-anatomie.jpg',
         'aussage': 'Eine ' + R % 'schmerzhafte Schulter' + ' zeigt sich oft zuerst im Alltag:',
         'karten': [('blitz', 'Schmerz beim Heben'), ('nacht', 'Nachts auf der Seite'),
                    ('gewicht', 'Kraftverlust'), ('gelenk', 'Weniger Beweglichkeit')],

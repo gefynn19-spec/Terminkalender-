@@ -5,7 +5,7 @@ R = '<span style="color: #8C1010;">%s</span>'
 
 POSTS = [
     {
-        'key': 'Huefte', 'page': 'Hüfte', 'badge': 'Hüft-Edition', 'hero': 'huefte',
+        'key': 'Huefte', 'page': 'Hüfte', 'badge': 'Hüft-Edition', 'hero': 'huefte', 'herobild': 'huefte-anatomie.jpg',
         'aussage': 'Schmerzen in der ' + R % 'Hüfte' + ' zeigen sich oft zuerst bei ganz normalen Alltagsbewegungen:',
         'karten': [('zeit', 'Anlaufschmerz'), ('stufen', 'Treppensteigen'),
                    ('gelenk', 'Schuhe binden'), ('blitz', 'Ausstrahlender Schmerz')],
@@ -27,7 +27,7 @@ POSTS = [
         'frage': 'Knackt dein Kiefer oder wachst du verspannt auf?',
     },
     {
-        'key': 'Ellenbogen', 'page': 'Ellenbogen', 'badge': 'Ellenbogen-Edition', 'hero': 'ellenbogen',
+        'key': 'Ellenbogen', 'page': 'Ellenbogen', 'badge': 'Ellenbogen-Edition', 'hero': 'ellenbogen', 'herobild': 'ellenbogen-anatomie.jpg',
         'aussage': 'Der ' + R % 'Tennisarm' + ' entsteht meistens ganz ohne Tennis – durch wiederholte Belastung:',
         'karten': [('greifen', 'Schmerz beim Zugreifen'), ('gewicht', 'Schwache Griffkraft'),
                    ('blitz', 'Druckempfindlich'), ('wiederholung', 'Immer gleiche Bewegung')],
