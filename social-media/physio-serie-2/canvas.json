@@ -1,0 +1,532 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-1"
+    },
+    {
+      "file": "HuefteAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-1"
+    },
+    {
+      "file": "HuefteBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-1"
+    },
+    {
+      "file": "HuefteTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-1"
+    },
+    {
+      "file": "KieferHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-2"
+    },
+    {
+      "file": "KieferAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-2"
+    },
+    {
+      "file": "KieferBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-2"
+    },
+    {
+      "file": "KieferTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-2"
+    },
+    {
+      "file": "EllenbogenHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-3"
+    },
+    {
+      "file": "EllenbogenAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-3"
+    },
+    {
+      "file": "EllenbogenBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-3"
+    },
+    {
+      "file": "EllenbogenTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-3"
+    },
+    {
+      "file": "HandHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-4"
+    },
+    {
+      "file": "HandAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-4"
+    },
+    {
+      "file": "HandBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-4"
+    },
+    {
+      "file": "HandTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-4"
+    },
+    {
+      "file": "FerseHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-5"
+    },
+    {
+      "file": "FerseAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-5"
+    },
+    {
+      "file": "FerseBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-5"
+    },
+    {
+      "file": "FerseTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-5"
+    },
+    {
+      "file": "RehaHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-6"
+    },
+    {
+      "file": "RehaAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-6"
+    },
+    {
+      "file": "RehaBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-6"
+    },
+    {
+      "file": "RehaTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-6"
+    },
+    {
+      "file": "LympheHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-7"
+    },
+    {
+      "file": "LympheAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-7"
+    },
+    {
+      "file": "LympheBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-7"
+    },
+    {
+      "file": "LympheTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-7"
+    },
+    {
+      "file": "SchwangerschaftHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-8"
+    },
+    {
+      "file": "SchwangerschaftAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-8"
+    },
+    {
+      "file": "SchwangerschaftBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-8"
+    },
+    {
+      "file": "SchwangerschaftTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-8"
+    },
+    {
+      "file": "SturzprophylaxeHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-9"
+    },
+    {
+      "file": "SturzprophylaxeAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-9"
+    },
+    {
+      "file": "SturzprophylaxeBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-9"
+    },
+    {
+      "file": "SturzprophylaxeTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-9"
+    },
+    {
+      "file": "KnochenHook.dc.html",
+      "title": "1 · Hook",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-10"
+    },
+    {
+      "file": "KnochenAnzeichen.dc.html",
+      "title": "2 · Anzeichen",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-10"
+    },
+    {
+      "file": "KnochenBehandlung.dc.html",
+      "title": "3 · Behandlung",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-10"
+    },
+    {
+      "file": "KnochenTermin.dc.html",
+      "title": "4 · Termin",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "print": "fixed",
+      "page": "page-10"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "caption-1",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nSchmerzen in der Hüfte zeigen sich oft zuerst bei ganz normalen Alltagsbewegungen:\n\nAnlaufschmerz, Treppensteigen, Schuhe binden, Ausstrahlender Schmerz.\n\n➡️ Daran arbeiten wir bei Hüftbeschwerden:\n\n✔️ Beweglichkeit erhalten\n✔️ Hüftmuskulatur kräftigen\n✔️ Gangbild verbessern\n✔️ Belastung dosieren\n\nDenn: Eine bewegliche Hüfte trägt den ganzen Alltag mit.\n\n💬 Zwickt deine Hüfte beim Aufstehen oder Treppensteigen? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-1"
+    },
+    {
+      "id": "caption-2",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nEin überlastetes Kiefergelenk macht sich selten nur im Kiefer bemerkbar:\n\nKnacken beim Öffnen, Zähneknirschen, Kopfschmerzen, Verspannter Nacken.\n\n➡️ Daran arbeiten wir bei Kiefergelenkbeschwerden:\n\n✔️ Kiefergelenk mobilisieren\n✔️ Kaumuskulatur lösen\n✔️ Nacken einbeziehen\n✔️ Alltag entlasten\n\nDenn: Kiefer, Nacken und Kopf arbeiten immer zusammen.\n\n💬 Knackt dein Kiefer oder wachst du verspannt auf? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-2"
+    },
+    {
+      "id": "caption-3",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nDer Tennisarm entsteht meistens ganz ohne Tennis – durch wiederholte Belastung:\n\nSchmerz beim Zugreifen, Schwache Griffkraft, Druckempfindlich, Immer gleiche Bewegung.\n\n➡️ Daran arbeiten wir beim Tennisarm:\n\n✔️ Sehne gezielt entlasten\n✔️ Griffkraft aufbauen\n✔️ Belastung anpassen\n✔️ Schulter einbeziehen\n\nDenn: Die Sehne braucht Belastung – nur in der richtigen Dosis.\n\n💬 Schmerzt dein Ellenbogen beim Zugreifen oder Heben? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-3"
+    },
+    {
+      "id": "caption-4",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nHand und Handgelenk melden Überlastung leise – aber ziemlich deutlich:\n\nKribbelnde Finger, Hand schläft nachts ein, Schmerz beim Aufstützen, Weniger Kraft.\n\n➡️ Daran arbeiten wir bei Hand- und Handgelenksbeschwerden:\n\n✔️ Nerv und Sehnen entlasten\n✔️ Beweglichkeit erhalten\n✔️ Kraft aufbauen\n✔️ Arbeitsplatz anpassen\n\nDenn: Die Hand arbeitet den ganzen Tag – Pausen gehören dazu.\n\n💬 Kribbeln deine Finger oder schläft die Hand nachts ein? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-4"
+    },
+    {
+      "id": "caption-5",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nFersenschmerz meldet sich typischerweise bei den ersten Schritten des Tages:\n\nErste Schritte am Morgen, Brennen unter der Ferse, Beschwerden nach Sport, Steifer Fuß.\n\n➡️ Daran arbeiten wir bei Fersenschmerzen:\n\n✔️ Fußsohle dehnen\n✔️ Wade mitbehandeln\n✔️ Fußmuskulatur kräftigen\n✔️ Belastung steuern\n\nDenn: Die Ferse trägt bei jedem Schritt dein ganzes Gewicht.\n\n💬 Schmerzt deine Ferse bei den ersten Schritten am Morgen? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-5"
+    },
+    {
+      "id": "caption-6",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nNach einer Operation entscheidet die Nachbehandlung mit über das Ergebnis:\n\nSchwellung, Weniger Beweglichkeit, Kraftverlust, Unsicheres Gehen.\n\n➡️ So begleiten wir dich nach deiner Operation:\n\n✔️ Schwellung reduzieren\n✔️ Beweglichkeit aufbauen\n✔️ Kraft zurückholen\n✔️ Sicher in den Alltag\n\nDenn: Eine gute Nachbehandlung gehört zur Operation dazu.\n\n💬 Steht bei dir eine Operation an oder liegt sie hinter dir? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-6"
+    },
+    {
+      "id": "caption-7",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nEine Schwellung ist kein Schönheitsthema – sie behindert Bewegung:\n\nSchweregefühl, Spannungsgefühl, Weniger Beweglichkeit, Abends schlimmer.\n\n➡️ Daran arbeiten wir bei Schwellungen:\n\n✔️ Lymphabfluss anregen\n✔️ Bewegung einbauen\n✔️ Kompression begleiten\n✔️ Haut und Gewebe pflegen\n\nDenn: Bewegung ist die beste Pumpe für dein Lymphsystem.\n\n💬 Fühlen sich Beine oder Arme abends schwer und geschwollen an? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-7"
+    },
+    {
+      "id": "caption-8",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nSchwangerschaft und Rückbildung fordern Rumpf und Becken ganz besonders:\n\nRückenschmerzen, Beckenschmerzen, Schwere Beine, Instabiler Rumpf.\n\n➡️ Dabei begleiten wir dich in Schwangerschaft und Rückbildung:\n\n✔️ Beckenboden aktivieren\n✔️ Rumpf stabilisieren\n✔️ Haltung entlasten\n✔️ Schrittweise aufbauen\n\nDenn: Rückbildung braucht Zeit – und den richtigen Aufbau.\n\n💬 Bist du schwanger oder mitten in der Rückbildung? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-8"
+    },
+    {
+      "id": "caption-9",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nSicher auf den Beinen zu bleiben ist trainierbar – in jedem Alter:\n\nUnsicher im Dunkeln, Halt an der Treppe, Angst zu stürzen, Weniger Beinkraft.\n\n➡️ Daran arbeiten wir für mehr Sicherheit im Alltag:\n\n✔️ Gleichgewicht trainieren\n✔️ Beinkraft aufbauen\n✔️ Gangbild verbessern\n✔️ Sicherheit zurückgewinnen\n\nDenn: Kraft und Gleichgewicht lassen sich in jedem Alter aufbauen.\n\n💬 Fühlst du dich beim Gehen nicht mehr ganz sicher? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-9"
+    },
+    {
+      "id": "caption-10",
+      "x": 0,
+      "y": 1180,
+      "w": 760,
+      "text": "Bildunterschrift zum Kopieren:\n\nWusstest du schon?\n\nKnochen reagieren auf Belastung – sie brauchen sie sogar, um stark zu bleiben:\n\nWenig Bewegung, Weniger Kraft, Rundrücken, Unsicherer Stand.\n\n➡️ Daran arbeiten wir für stabile Knochen:\n\n✔️ Kraft gezielt aufbauen\n✔️ Wirbelsäule aufrichten\n✔️ Gleichgewicht schulen\n✔️ Belastung richtig dosieren\n\nDenn: Knochen werden stärker, wenn man sie regelmäßig fordert.\n\n💬 Willst du deine Knochen gezielt stärken? Schreib es uns in die Kommentare oder vereinbare einen Termin – wir helfen dir gerne weiter.\n\n📍 Gerstner Physiotherapie · Zeiler Str. 20 · Sand am Main · 09524 5297",
+      "page": "page-10"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-1",
+      "name": "1 · Hüfte"
+    },
+    {
+      "id": "page-2",
+      "name": "2 · Kiefergelenk"
+    },
+    {
+      "id": "page-3",
+      "name": "3 · Ellenbogen"
+    },
+    {
+      "id": "page-4",
+      "name": "4 · Hand & Handgelenk"
+    },
+    {
+      "id": "page-5",
+      "name": "5 · Ferse & Fußsohle"
+    },
+    {
+      "id": "page-6",
+      "name": "6 · Nach der Operation"
+    },
+    {
+      "id": "page-7",
+      "name": "7 · Schwellung & Lymphe"
+    },
+    {
+      "id": "page-8",
+      "name": "8 · Schwangerschaft"
+    },
+    {
+      "id": "page-9",
+      "name": "9 · Sicher auf den Beinen"
+    },
+    {
+      "id": "page-10",
+      "name": "10 · Knochen & Osteoporose"
+    }
+  ],
+  "launch": {
+    "view": "canvas",
+    "page": "page-1"
+  }
+}
