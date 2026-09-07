@@ -38,7 +38,7 @@ POSTS = [
         'frage': 'Schmerzt dein Ellenbogen beim Zugreifen oder Heben?',
     },
     {
-        'key': 'Hand', 'page': 'Hand & Handgelenk', 'badge': 'Hand-Edition', 'hero': 'hand',
+        'key': 'Hand', 'page': 'Hand & Handgelenk', 'badge': 'Hand-Edition', 'hero': 'hand', 'herobild': 'hand-anatomie.jpg',
         'aussage': R % 'Hand und Handgelenk' + ' melden Überlastung leise – aber ziemlich deutlich:',
         'karten': [('kribbeln', 'Kribbelnde Finger'), ('nacht', 'Hand schläft nachts ein'),
                    ('druck', 'Schmerz beim Aufstützen'), ('gewicht', 'Weniger Kraft')],
