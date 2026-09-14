@@ -49,7 +49,7 @@ POSTS = [
         'frage': 'Kribbeln deine Finger oder schläft die Hand nachts ein?',
     },
     {
-        'key': 'Ferse', 'page': 'Ferse & Fußsohle', 'badge': 'Fersen-Edition', 'hero': 'ferse',
+        'key': 'Ferse', 'page': 'Ferse & Fußsohle', 'badge': 'Fersen-Edition', 'hero': 'ferse', 'herobild': 'ferse-anatomie.jpg',
         'aussage': R % 'Fersenschmerz' + ' meldet sich typischerweise bei den ersten Schritten des Tages:',
         'karten': [('zeit', 'Erste Schritte am Morgen'), ('blitz', 'Brennen unter der Ferse'),
                    ('fuss', 'Beschwerden nach Sport'), ('gelenk', 'Steifer Fuß')],
@@ -60,7 +60,7 @@ POSTS = [
         'frage': 'Schmerzt deine Ferse bei den ersten Schritten am Morgen?',
     },
     {
-        'key': 'Reha', 'page': 'Nach der Operation', 'badge': 'Reha-Edition', 'hero': 'reha',
+        'key': 'Reha', 'page': 'Nach der Operation', 'badge': 'Reha-Edition', 'hero': 'reha', 'herobild': 'reha-anatomie.jpg',
         'eyebrow': 'So begleiten wir dich',
         'aussage': 'Nach einer ' + R % 'Operation' + ' entscheidet die Nachbehandlung mit über das Ergebnis:',
         'karten': [('tropfen', 'Schwellung'), ('gelenk', 'Weniger Beweglichkeit'),
